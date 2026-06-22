@@ -495,16 +495,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebas
 import { getDatabase, ref, set, onValue, update, remove }
   from "https://www.gstatic.com/firebasejs/11.6.1/firebase-database.js";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBDTP_ccKd9De3Qv9OOThETl_5ss3O4c0Q",
-  authDomain: "pagina1000.firebaseapp.com",
-  projectId: "pagina1000",
-  storageBucket: "pagina1000.firebasestorage.app",
-  messagingSenderId: "613423736680",
-  appId: "1:613423736680:web:c59436773b82d14f6018dd",
-  measurementId: "G-LM1DPL80WH"
-};
-
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 const dataRef = ref(db, 'portal');
